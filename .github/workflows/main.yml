@@ -2,7 +2,7 @@ name: Daily Fuel Screenshot
 
 on:
   schedule:
-    - cron: '0 5 * * *'  # 5:00 AM UTC = 5:00 PM NZST (or 6:00 PM NZDT)
+    - cron: '0 4 * * *'  # UTC so timezone: 5:00 PM NZ
   workflow_dispatch:      # Still keep this so you can trigger it manually
 
 jobs:
